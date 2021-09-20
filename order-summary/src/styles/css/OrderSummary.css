@@ -1,0 +1,92 @@
+#OrderSummaryWrapper {
+  background-color: red;
+  /* height: 657px; */
+  /* border: 6px solid #949599; */
+  /* margin: 10px; */
+  /* padding: 20px; */
+  position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background:red;
+    z-index: 10;
+}
+
+#OrderSummaryCard {
+  background-color: pink;
+  border: 6px solid #949599;
+  border-radius: 25px;
+  margin: 60px auto;
+  width: 300px;
+  height: 500px;
+  position: relative;
+}
+
+#OrderSummaryBanner{
+    background-color: rgb(12, 55, 245);
+    /* height: 150px; */
+    height: 30%;
+}
+
+#OrderSummaryDetails{
+    background-color: yellow;
+    height: 70%;
+    text-align: center
+}
+
+#OrderSummaryTitle{
+    font-weight: bold;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+#OrderSummaryInfo{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline;
+}
+
+#OrderSummaryCostSection{
+    margin: 20px 20px;
+    background-color:gray;
+    display: block;
+    height: 80px;
+    border-radius: 10px;
+}
+
+#OrderSummaryMusicIcon{
+    background-color: hotpink;
+    padding: 5px 5px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+#OrderSummaryRate{
+    background-color: rgb(8, 94, 151);
+    padding: 5px 5px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 5px;
+}
+
+#OrderSummaryChangeLink{
+    background-color: rgb(51, 16, 54);
+    padding: 5px 5px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#OrderSummaryButtonsSection{
+    background-color: rgb(224, 202, 226);
+    height: 80px;
+}
+
+#OrderSummaryPaymentButton{
+    
+}
+
+#OrderSummaryCancelButton{
+    margin-top: 10px;
+}
