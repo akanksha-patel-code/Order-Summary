@@ -31,7 +31,7 @@
 }
 
 #OrderSummaryTitle{
-    font-weight: bold;
+    font-weight: 900;
     padding-top: 20px;
     margin-bottom: 20px;
 }
@@ -40,6 +40,7 @@
     padding-left: 10px;
     padding-right: 10px;
     display: inline;
+    font-weight: 500;
 }
 
 #OrderSummaryCostSection{
@@ -62,6 +63,11 @@
     float: right;
     margin-top: 25px;
     margin-right: 5px;
+}
+
+#Plan{
+    font-weight: 900;
+    padding-bottom: 5px;
 }
 
 #OrderSummaryChangeLink{
@@ -87,4 +93,5 @@
     margin-top: 10px;
     display: block;
     margin-left: 100px;
+    border: none;
 }
