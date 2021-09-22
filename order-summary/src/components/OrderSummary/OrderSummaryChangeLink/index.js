@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 
 export const OrderSummaryChangeLink = (props) => {
-    return (
-        <div id="OrderSummaryChangeLink">
-            {props.children}
-            Link
-        </div>
-    )
-}
+  return (
+    <a id="OrderSummaryRate" href="default.asp" target="_blank">
+      {props.children}
+      change
+    </a>
+  );
+};

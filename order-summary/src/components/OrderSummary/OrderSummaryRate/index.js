@@ -1,10 +1,11 @@
-import React from 'react'
+import React from "react";
 
 export const OrderSummaryRate = (props) => {
-    return (
-        <div id = "OrderSummaryRate">
-            {props.children}
-            Rate
-        </div>
-    )
-}
+  return (
+    <div id="OrderSummaryChangeLink">
+      {props.children}
+      <div>Annual Plan</div>
+      <div>$59.99/year</div>
+    </div>
+  );
+};

@@ -1,10 +1,10 @@
 import React from 'react'
+import icon from '../../../styles/images/icon-music.svg'
 
 export const OrderSummaryMusicIcon = (props) => {
     return (
-        <div id="OrderSummaryMusicIcon">
+        <img id="OrderSummaryMusicIcon" src={icon} alt="icon">
             {props.children}
-            Icon
-        </div>
+        </img>
     )
 }

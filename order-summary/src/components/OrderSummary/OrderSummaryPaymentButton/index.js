@@ -4,7 +4,7 @@ export const OrderSummaryPaymentButton = (props) => {
     return (
         <button id = "OrderSummaryPaymentButton">
             {props.children}
-            OrderSummaryPaymentButton
+            Proceed to Payment
         </button>
     )
 }

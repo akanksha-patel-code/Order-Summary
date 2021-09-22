@@ -1,11 +1,10 @@
 import React from 'react'
+import icon from '../../../styles/images/illustration-hero.svg'
 
 export const OrderSummaryBanner = (props) => {
     return (
-        <div id = "OrderSummaryBanner">
-            OrderSummaryBanner
+        <img id = "OrderSummaryBanner" src= {icon} alt="music">
             {props.children}
-            
-        </div>
+        </img>
     )
 }

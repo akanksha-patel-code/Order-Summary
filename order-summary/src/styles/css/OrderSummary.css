@@ -1,38 +1,33 @@
 #OrderSummaryWrapper {
-  background-color: red;
-  /* height: 657px; */
-  /* border: 6px solid #949599; */
-  /* margin: 10px; */
-  /* padding: 20px; */
-  position: fixed;
+    position: fixed;
     width: 100%;
     height: 100%;
     left: 0;
     top: 0;
-    background:red;
+    background:hsl(225, 100%, 94%);
     z-index: 10;
 }
 
 #OrderSummaryCard {
-  background-color: pink;
-  border: 6px solid #949599;
-  border-radius: 25px;
+  background-color: white;
+  border-radius: 15px;
   margin: 60px auto;
   width: 300px;
   height: 500px;
   position: relative;
+ 
 }
 
 #OrderSummaryBanner{
-    background-color: rgb(12, 55, 245);
-    /* height: 150px; */
     height: 30%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 #OrderSummaryDetails{
-    background-color: yellow;
-    height: 70%;
-    text-align: center
+    height: 65%;
+    text-align: center;
 }
 
 #OrderSummaryTitle{
@@ -49,22 +44,20 @@
 
 #OrderSummaryCostSection{
     margin: 20px 20px;
-    background-color:gray;
+    background-color: #D3D3D3;
     display: block;
     height: 80px;
     border-radius: 10px;
 }
 
 #OrderSummaryMusicIcon{
-    background-color: hotpink;
     padding: 5px 5px;
     float: left;
-    margin-top: 25px;
+    margin-top: 10px;
     margin-left: 5px;
 }
 
 #OrderSummaryRate{
-    background-color: rgb(8, 94, 151);
     padding: 5px 5px;
     float: right;
     margin-top: 25px;
@@ -72,21 +65,26 @@
 }
 
 #OrderSummaryChangeLink{
-    background-color: rgb(51, 16, 54);
     padding: 5px 5px;
     display: inline-block;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 #OrderSummaryButtonsSection{
-    background-color: rgb(224, 202, 226);
-    height: 80px;
+    height: 70px;
 }
 
 #OrderSummaryPaymentButton{
-    
+    background-color: hsl(223, 47%, 23%);
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 50px;
 }
 
 #OrderSummaryCancelButton{
     margin-top: 10px;
+    display: block;
+    margin-left: 100px;
 }

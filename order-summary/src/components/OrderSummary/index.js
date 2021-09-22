@@ -6,7 +6,7 @@ import { OrderSummaryCard } from "../OrderSummary/OrderSummaryCard";
 import { OrderSummaryTitle } from "../OrderSummary/OrderSummaryTitle";
 import { OrderSummaryCostSection } from "../OrderSummary/OrderSummaryCostSection";
 import { OrderSummaryMusicIcon } from "../OrderSummary/OrderSummaryMusicIcon";
-import { OrderSummaryRate } from "../OrderSummary/OrderSummaryRate";
+import { OrderSummaryRate } from "./OrderSummaryRate";
 import { OrderSummaryChangeLink } from "../OrderSummary/OrderSummaryChangeLink";
 import { OrderSummaryButtonsSection } from "../OrderSummary/OrderSummaryButtonsSection";
 import { OrderSummaryPaymentButton } from "../OrderSummary/OrderSummaryPaymentButton";
