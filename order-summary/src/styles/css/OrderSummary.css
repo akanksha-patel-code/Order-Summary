@@ -21,8 +21,8 @@
 #OrderSummaryBanner{
     height: 30%;
     width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 #OrderSummaryDetails{
@@ -33,19 +33,19 @@
 #OrderSummaryTitle{
     font-weight: 900;
     padding-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 #OrderSummaryInfo{
-    padding-left: 10px;
-    padding-right: 10px;
-    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
     font-weight: 500;
+    color: gray;
 }
 
 #OrderSummaryCostSection{
     margin: 20px 20px;
-    background-color: #D3D3D3;
+    background-color: hsl(225, 100%, 98%);
     display: block;
     height: 80px;
     border-radius: 10px;
@@ -63,6 +63,8 @@
     float: right;
     margin-top: 25px;
     margin-right: 5px;
+    color: blue;
+    font-weight: 900;
 }
 
 #Plan{

@@ -4,7 +4,7 @@ export const OrderSummaryChangeLink = (props) => {
   return (
     <a id="OrderSummaryRate" href="default.asp" target="_blank">
       {props.children}
-      change
+      Change
     </a>
   );
 };

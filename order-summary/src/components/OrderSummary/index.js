@@ -11,6 +11,8 @@ import { OrderSummaryChangeLink } from "../OrderSummary/OrderSummaryChangeLink";
 import { OrderSummaryButtonsSection } from "../OrderSummary/OrderSummaryButtonsSection";
 import { OrderSummaryPaymentButton } from "../OrderSummary/OrderSummaryPaymentButton";
 import { OrderSummaryCancelButton } from "../OrderSummary/OrderSummaryCancelButton";
+import { OrderSummaryInfo } from "../OrderSummary/OrderSummaryInfo";
+
 
 export const OrderSummary = (props) => {
   return (
@@ -19,6 +21,7 @@ export const OrderSummary = (props) => {
       <OrderSummaryDetails>
         
         <OrderSummaryTitle></OrderSummaryTitle>
+        <OrderSummaryInfo></OrderSummaryInfo>
         
         <OrderSummaryCostSection>
           <OrderSummaryMusicIcon></OrderSummaryMusicIcon>
