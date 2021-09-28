@@ -2,7 +2,7 @@ import React from "react";
 
 export const OrderSummaryChangeLink = (props) => {
   return (
-    <a id="OrderSummaryRate" href="default.asp" target="_blank">
+    <a id="OrderSummaryChangeLink" href="default.asp" target="_blank">
       {props.children}
       Change
     </a>
